@@ -265,3 +265,6 @@ If you find this code useful in your research, please consider citing:
 
 ### Acknowledgments
 This code borrows from [GauGAN](https://github.com/nvlabs/spade/), [SBGAN](https://github.com/azadis/SB-GAN), [SEAN](https://github.com/ZPdesu/SEAN) and [pytorch segmentation toolbox](https://github.com/speedinghzl/pytorch-segmentation-toolbox).
+
+### License
+Semantic Palette is released under the [Apache 2.0 license](./LICENSE).
