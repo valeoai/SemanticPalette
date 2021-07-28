@@ -174,35 +174,48 @@ We provide checkpoints for various configurations:
     <th>Layout synthesis</th>
     <th>Image synthesis</th>
     <th>Resolution</th>
+    <th>End-to-end</th>
     <th>Download</th>
   </tr>
   <tr>
     <td>Cityscapes</td>
-    <td>Partial</td>
-    <td>GauGAN</td>
-    <td>128x256</td>
-    <td><a href="https://drive.google.com/file/d/16g3X-tl7EECO8SruZn-D7GyWr-UBxDiq/view?usp=sharing">checkpoint</a></td>
+    <td align="center">Partial</td>
+    <td align="center">GauGAN</td>
+    <td align="center">128x256</td>
+    <td align="center">&cross;</td>
+    <td align="center"><a href="https://drive.google.com/file/d/16g3X-tl7EECO8SruZn-D7GyWr-UBxDiq/view?usp=sharing">checkpoint</a></td>
+  </tr>
+  <tr>
+    <td>Cityscapes</td>
+    <td align="center">Full</td>
+    <td align="center">GauGAN</td>
+    <td align="center">128x256</td>
+    <td align="center">&cross;</td>
+    <td align="center"><a href="https://drive.google.com/file/d/1XwuMsTIEKO0P5cEz1gptm6vkq6o0xs9P/view?usp=sharing">checkpoint</a></td>
   </tr>
   <tr>
     <td>Cityscapes-25k</td>
-    <td>Full</td>
-    <td>GauGAN</td>
-    <td>128x256</td>
-    <td><a href="https://drive.google.com/file/d/12wB8OLDJfZgY_LcaxQxB_XfbRJxI3T_J/view?usp=sharing">checkpoint</a></td>
+    <td align="center">Full</td>
+    <td align="center">GauGAN</td>
+    <td align="center">128x256</td>
+    <td align="center">&check;</td>
+    <td align="center"><a href="https://drive.google.com/file/d/12wB8OLDJfZgY_LcaxQxB_XfbRJxI3T_J/view?usp=sharing">checkpoint</a></td>
   </tr>
   <tr>
     <td>IDD</td>
-    <td>Full</td>
-    <td>GauGAN</td>
-    <td>128x256</td>
-    <td><a href="https://drive.google.com/file/d/1Y8ayPRYWRCT0yjDoz7Inf_Ex0Zp8dJXL/view?usp=sharing">checkpoint</a></td>
+    <td align="center">Full</td>
+    <td align="center">GauGAN</td>
+    <td align="center">128x256</td>
+    <td align="center">&check;</td>
+    <td align="center"><a href="https://drive.google.com/file/d/1Y8ayPRYWRCT0yjDoz7Inf_Ex0Zp8dJXL/view?usp=sharing">checkpoint</a></td>
   </tr>
   <tr>
     <td>CelebA</td>
-    <td>Partial</td>
-    <td>SEAN</td>
-    <td>256x256</td>
-    <td><a href="https://drive.google.com/file/d/1WgtEHHbAuJIB1nCwgqXm90r_GswSdwrD/view?usp=sharing">checkpoint</a></td>
+    <td align="center">Partial</td>
+    <td align="center">SEAN</td>
+    <td align="center">256x256</td>
+    <td align="center">&cross;</td>
+    <td align="center"><a href="https://drive.google.com/file/d/1WgtEHHbAuJIB1nCwgqXm90r_GswSdwrD/view?usp=sharing">checkpoint</a></td>
   </tr>
 </table>
 
@@ -257,10 +270,10 @@ bash scripts/demo_face_editing_256.sh
 If you find this code useful in your research, please consider citing:
 
     @inproceedings{lemoing2021semanticpalette,
-      title={Semantic Palette: Guiding Scene Generation with Class Proportions},
-      author={Le Moing, Guillaume and Vu, Tuan-Hung and Jain, Himalaya and P{\'e}rez, Patrick and Cord, Mathieu},
-      booktitle={CVPR},
-      year={2021}
+      title     = {Semantic Palette: Guiding Scene Generation with Class Proportions},
+      author    = {Le Moing, Guillaume and Vu, Tuan-Hung and Jain, Himalaya and P{\'e}rez, Patrick and Cord, Mathieu},
+      booktitle = {CVPR},
+      year      = {2021}
     }
 
 ### Acknowledgments
